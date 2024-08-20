@@ -703,6 +703,8 @@ async def run():
         invite_code = invite_code_list[i]
         await main(invite_code)
     await push(PUSH_MSG)
+
+
 commit
 
 asyncio.run(run())
